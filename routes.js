@@ -23,12 +23,13 @@ var routes = [
     icon: "ni ni-single-02 text-yellow",
     layout: "/admin",
   },
-  {
-    path: "/tables",
+  
+  {  path: "/tables",
     name: "Tables",
     icon: "ni ni-bullet-list-67 text-red",
     layout: "/admin",
   },
+  
   {
     path: "/login",
     name: "Login",
@@ -42,10 +43,17 @@ var routes = [
     layout: "/auth",
   },
   {
+<<<<<<< HEAD
+	  path:"/home",
+	  name:"Home",
+	  layout:"/admin",
+  }
+=======
     path: "/login",
     name: "Login",
     icon: "ni ni-circle-08 text-pink",
     layout: "/mentor",
   },
+>>>>>>> b66fbd350554b17e5a371cf0020a9c910ea74e99
 ];
 export default routes;

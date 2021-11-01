@@ -1,0 +1,15 @@
+:root {
+  --darkblue: #000033;
+  --lightblue: #B2CBED;
+  --cyan: #3ADDD4;
+  --cyellow: #FFD110;
+  --cazure: #E9F9FC;
+  --cpink: #FF127E;
+  --corange: #FF6903;
+  --blackpearl: #112033;
+  --cwhite: #F5FAFF;
+  --cblack: #000A14;
+}
+h1{
+	color: var(--cyellow);
+}
