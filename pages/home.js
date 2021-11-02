@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import './../assets/css/style.css';
 import hero from './../assets/img/landing/Main Landing-02.png';
 import p1 from './../assets/img/landing/Main Landing-03.png';
@@ -13,8 +13,14 @@ import p9 from './../assets/img/landing/Main Landing-11.png';
 import p10 from './../assets/img/landing/Main Landing-12.png';
 
 
-
+import AOS from 'aos';
 function Home() {
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+          offset: 100,
+        });
+      }, []);
   return (
     <>
       {/* Page content */}
@@ -25,8 +31,8 @@ function Home() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
-        <div className="ring">
-            {/* <img src={p1} className="obj1" alt="not working" />
+        {/* <div className="ring">
+            <img  data-aos="fade-up" src={p1} className="obj1" alt="not working" />
             <img src={p2} className="obj2" alt="not working" />
             <img src={p3} className="obj3" alt="not working" />
             <img src={p4} className="obj1" alt="not working" />
@@ -35,8 +41,8 @@ function Home() {
             <img src={p7} className="obj1" alt="not working not to move" />
             <img src={p8} className="obj1" alt="not working" />
             <img src={p9} className="obj2" alt="not working" />
-            <img src={p10}  className="obj3" alt="not working" /> */}
-        </div>
+            <img src={p10}  className="obj3" alt="not working" />
+        </div> */}
       </div>
       
     </>
