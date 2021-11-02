@@ -43,17 +43,10 @@ var routes = [
     layout: "/auth",
   },
   {
-<<<<<<< HEAD
-	  path:"/home",
-	  name:"Home",
-	  layout:"/admin",
-  }
-=======
     path: "/login",
     name: "Login",
     icon: "ni ni-circle-08 text-pink",
     layout: "/mentor",
   },
->>>>>>> b66fbd350554b17e5a371cf0020a9c910ea74e99
 ];
 export default routes;
