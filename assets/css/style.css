@@ -17,21 +17,22 @@ h1{
 
 }
 img{
-	height:100%;
-	width:100%;
+width: 100%;
+  aspect-ratio: 3126/2085;
 }
 .containers{
   display: flex;
+  justify-content: center;
 }
 .ring{
   position:relative;
-  height: 105vh;
-  width: 230vh;
+  height: 100vh;
+  width: 100%;
 }
 .ring>*{
 	position:absolute;
-	
-}
+} 
+/* 
 .obj1{
   animation: move1 10s linear infinite;
 }
@@ -82,4 +83,4 @@ img{
   100%{
     transform: translateY(20px);
   }
-}
+} */
