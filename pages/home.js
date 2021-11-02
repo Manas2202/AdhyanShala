@@ -1,6 +1,6 @@
 import React , {useEffect} from "react";
 import './../assets/css/style.css';
-import hero from './../assets/img/landing/Main Landing-02.png';
+import hero from './../assets/img/landing/Main Landing-13.png';
 import p1 from './../assets/img/landing/Main Landing-03.png';
 import p2 from './../assets/img/landing/Main Landing-04.png';
 import p3 from './../assets/img/landing/Main Landing-05.png';
