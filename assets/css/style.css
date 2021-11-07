@@ -16,6 +16,10 @@ h1{
 	color: var(--cyellow);
 
 }
+.start{
+  height: 100vw;
+  width: 100vw;
+}
 .containers{
   display: flex;
   height:100vh;
@@ -30,16 +34,12 @@ h1{
 .ring>*{
 	position:absolute;
 } 
-.btn-get-started{
-  padding-top: 64vh;
-}
+
 .slider-img{
   height: 100px;
   width: 100px;
 }
 .slider{
-  background: #fff;
+  height: 100px !important;
 }
-.awssld{
-  --content-background-color:#fff !important;
-}
+

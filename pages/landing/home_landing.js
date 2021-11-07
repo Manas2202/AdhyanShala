@@ -24,8 +24,9 @@ function Homepage() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}
-      >
+      >  
        <a className="btn-get-started" href="#">Get Started</a>
+
       </div>
       
       

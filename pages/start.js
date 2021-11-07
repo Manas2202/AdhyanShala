@@ -1,21 +1,23 @@
 import React from "react";
 import './../assets/css/style.css';
 import Home from './home.js';
-import AwesomeSlider from 'react-awesome-slider';
+import About from './about.js';
+import HorizontalScroll from 'react-scroll-horizontal';
 import hero from './../assets/img/landing/Main Landing-13.png';
-import p8 from './../assets/img/landing/Main Landing-10.png';
-import p9 from './../assets/img/landing/Main Landing-11.png';
-import p10 from './../assets/img/landing/Main Landing-12.png';
-import 'react-awesome-slider/dist/styles.css';
+import about from './../assets/img/landing/about.svg';
 function Start() {
+  const child= { width :`100em`, height:`100%`}
   return (
     <>
       {/* Page content */}
-      <AwesomeSlider className="sLider" >
-        <div data-src={hero} style={{padding:'0px'}}/>
-        <div data-src={hero}/>
-        <div data-src={hero}/>
-      </AwesomeSlider>
+     <div className="start">
+       <HorizontalScroll>
+        <div style={child}>
+          <Home/>    
+        </div>   
+       </HorizontalScroll>
+     </div>
+      
     </>
   );
 }
