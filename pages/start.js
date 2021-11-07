@@ -6,7 +6,7 @@ import HorizontalScroll from 'react-scroll-horizontal';
 import hero from './../assets/img/landing/Main Landing-13.png';
 import about from './../assets/img/landing/about.svg';
 function Start() {
-  const child= { width :`100em`, height:`100%`}
+  const child= { width :`100%`, height:`100%`}
   return (
     <>
       {/* Page content */}
