@@ -11,7 +11,9 @@
   --cblack: #000A14;
 }
 
-
+body{
+  background-color: var(--lightblue);
+}
 h1{
 	color: var(--cyellow);
 
