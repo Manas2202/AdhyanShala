@@ -5,22 +5,27 @@ import About from './about.js';
 import HorizontalScroll from 'react-scroll-horizontal';
 import hero from './../assets/img/landing/Main Landing-13.png';
 import about from './../assets/img/landing/about.svg';
+import Donate from './../assets/img/landing/donate.svg';
 function Start() {
-  const child= { width :`100%`, height:`100%`}
+  const child= { width :`300em`, height:`100%`}
   return (
     <>
       {/* Page content */}
-     <div className="start">
-       <HorizontalScroll>
-        <div style={child}>
-          <Home/>    
-        </div>   
-       </HorizontalScroll>
-     </div>
-      
+     <div className="start">  
+        <div  className="main">
+        <img className="main-landing" src={hero} />
+        </div>     
+        <div  className="main">
+        <object type="image/svg+xml" data={about}> </object>
+        </div> 
+        <div  className="main">
+        <object type="image/svg+xml" data={about}> </object>
+        </div>    
+     </div>  
     </>
   );
 }
 
 
 export default Start;
+                     
