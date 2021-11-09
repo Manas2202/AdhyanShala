@@ -12,9 +12,7 @@ function Start() {
     <>
       {/* Page content */}
      <div className="start">  
-        <div  className="main">
-        <img className="main-landing" src={hero} />
-        </div>     
+       
         <div  className="main">
         <object type="image/svg+xml" data={about}> </object>
         </div> 
