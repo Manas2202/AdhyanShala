@@ -3,6 +3,8 @@ import './../../assets/css/page.css';
 import astronaut from './../../assets/img/illustrations/Be_A_Part-03.svg'
 import astronaut1 from './../../assets/img/illustrations/laptop_ass-04.svg'
 
+import wave3 from './../../assets/img/illustrations/div_-04.png'
+import wave4 from './../../assets/img/illustrations/div_header_footer-04.png'
 import { SiCloudbees } from "react-icons/si";
 
 export default function page() {
@@ -118,6 +120,19 @@ export default function page() {
             </div>
         </div>
     </div>
+    <img src={wave3} width="100%" className="mt-5"/>
+      <div className="container-fluid" style={{"background" : "#000033"}} >
+          <div className="row">
+            <div className="col-12">
+                <p className="text-white text-center">Losmdxlasmdsml;dmas;lm;la</p>
+                <p className="text-white text-center">Losmdxlasmdsml;dmas;lm;la</p>
+                <p className="text-white text-center">Losmdxlasmdsml;dmas;lm;la</p>
+                <p className="text-white text-center">Losmdxlasmdsml;dmas;lm;la</p>
+            </div>
+          </div>
+
+      </div>
+      <img src={wave4} width="100%" className="mb-5"/>
             <section className="home-clients">
                 <div className="container">
                     <div className="main-text section-title mt-5 mb-3 text-center" data-aos="fade-up" data-aos-delay="0.1s">
