@@ -280,3 +280,13 @@
 .font{
     font-size: 2rem !important;
 }
+.service-card {
+   border-radius: 12px;
+    transition-duration: .4s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.service-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
