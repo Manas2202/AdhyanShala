@@ -2,7 +2,7 @@ import React from 'react'
 import './../../assets/css/page.css';
 import astronaut from './../../assets/img/illustrations/Be_A_Part-03.svg'
 import astronaut1 from './../../assets/img/illustrations/laptop_ass-04.svg'
-
+import Footer from "./../../components/Footers/footer"
 import wave3 from './../../assets/img/illustrations/div_-04.png'
 import wave4 from './../../assets/img/illustrations/div_header_footer-04.png'
 import { SiCloudbees } from "react-icons/si";
@@ -200,6 +200,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

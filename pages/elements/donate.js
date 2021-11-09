@@ -1,23 +1,23 @@
 import React from 'react'
 import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Row,
-  Col,
+    Button,
+    Card,
+    CardHeader,
+    CardBody,
+    FormGroup,
+    Form,
+    Input,
+    InputGroupAddon,
+    InputGroupText,
+    InputGroup,
+    Row,
+    Col,
 } from "reactstrap";
 export default function donate() {
     return (
         <div>
             <div className="container">
-            <div className="row mt-5">
+                <div className="row mt-5">
                     <div className="col-md-2 mt-3">
                         <div className="feature-card text-center">
                             <div className="icon"><i className="fas fa-user-graduate"></i></div>
@@ -77,7 +77,7 @@ export default function donate() {
                             <div className="icon"><i className="fas fa-user-graduate"></i></div>
                         </div>
                     </div>
-                    
+
                     <div className="col-md-2 mt-3">
                         <div className="feature-card text-center">
                             <div className="icon"><i className="fas fa-user-graduate"></i></div>
@@ -131,99 +131,99 @@ export default function donate() {
                 </div>
             </div>
             <div className="d-flex align-item-center justify-content-center" >
-       <Col className="" style={{paddingTop:'150px',}}  lg ="6" md="8">
-        <Card className="bg-secondary shadow border-0">
-          
-          <CardBody className="px-lg-5 py-lg-5">
-            <div className="text-center text-muted mb-4">
-             <p style={{fontSize:'21px',fontWeight:'600'}}>Donation Form</p>
+                <Col className="" style={{ paddingTop: '150px', }} lg="6" md="8">
+                    <Card className="bg-secondary shadow border-0">
+
+                        <CardBody className="px-lg-5 py-lg-5">
+                            <div className="text-center text-muted mb-4">
+                                <p style={{ fontSize: '21px', fontWeight: '600' }}>Donation Form</p>
+                            </div>
+                            <Form role="form">
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input placeholder="Name" type="text" />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input
+                                            placeholder="Contact"
+                                            type="email"
+
+                                        />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input placeholder="Address" type="text" />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input
+                                            placeholder="Contact"
+                                            type="email"
+                                            autoComplete="new-email"
+                                        />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input
+                                            placeholder="Gadget Type"
+                                            type="date"
+
+                                        />
+                                    </InputGroup>
+                                </FormGroup>
+                                <FormGroup>
+                                    <InputGroup className="input-group-alternative mb-3">
+                                        <InputGroupAddon addonType="prepend">
+                                            <InputGroupText>
+
+                                            </InputGroupText>
+                                        </InputGroupAddon>
+                                        <Input
+                                            placeholder="To"
+                                            type="date"
+
+                                        />
+                                    </InputGroup>
+                                </FormGroup>
+                                <div className="text-center">
+                                    <Button className="mt-4" color="primary" type="button">
+                                        Submit
+                                    </Button>
+                                </div>
+                            </Form>
+                        </CardBody>
+                    </Card>
+                </Col>
             </div>
-            <Form role="form">
-              <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input placeholder="Name" type="text" />
-                </InputGroup>
-              </FormGroup>
-              <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                  </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Contact"
-                    type="email"
-                    
-                  />
-                </InputGroup>
-              </FormGroup>
-              <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input placeholder="Address" type="text" />
-                </InputGroup>
-              </FormGroup>
-              <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                                          </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Contact"
-                    type="email"
-                    autoComplete="new-email"
-                  />
-                </InputGroup>
-              </FormGroup>
-              <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="Gadget Type"
-                    type="date"
-                   
-                  />
-                </InputGroup>
-              </FormGroup>
-             <FormGroup>
-                <InputGroup className="input-group-alternative mb-3">
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      
-                    </InputGroupText>
-                  </InputGroupAddon>
-                  <Input
-                    placeholder="To"
-                    type="date"
-                   
-                  />
-                </InputGroup>
-              </FormGroup>
-              <div className="text-center">
-                <Button className="mt-4" color="primary" type="button">
-                  Submit
-                </Button>
-              </div>
-            </Form>
-          </CardBody>
-        </Card>
-      </Col>
-      </div>    
-            
+
         </div>
     )
 }
