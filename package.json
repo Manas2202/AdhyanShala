@@ -30,6 +30,8 @@
     "bootstrap": "4.6.0",
     "chart.js": "2.9.4",
     "classnames": "2.2.6",
+    "lord-icon-element": "^3.0.0",
+    "lottie-web": "^5.8.0",
     "moment": "2.29.1",
     "next": "10.0.6",
     "next-compose-plugins": "2.2.1",
