@@ -45,7 +45,7 @@ export default function donate() {
                     </div>
                     <div className="col-md-8">
                         <div className="main-text section-title text-center" data-aos="fade-up" data-aos-delay="0.1s">
-                            <h1 className="text-black">About Us</h1>
+                            <h1 className="text-black font">About Us</h1>
                             <p >
                                 Our Artificial Intelligence powered tools use millions of project data
                             </p>
