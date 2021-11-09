@@ -10,18 +10,63 @@ function Start() {
   const child= { width :`300em`, height:`100%`}
   return (
     <>
-      {/* Page content */}
+      {/* Page content 
      <div className="start">  
         <div  className="main">
-        <img className="main-landing" src={hero} />
+        <img className="main" src={hero} />
         </div>     
         <div  className="main">
-        <object type="image/svg+xml" data={about}> </object>
+        <object className="main" type="image/svg+xml" data={about}> </object>
         </div> 
         <div  className="main">
-        <object type="image/svg+xml" data={about}> </object>
+        <object className="main" type="image/svg+xml" data={about}> </object>
         </div>    
-     </div>  
+     </div>*/}
+     <div className="slider">
+  <section style={{
+           backgroundImage: `url('${hero}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+      }}>
+     
+
+  </section>
+  <section style={{
+           backgroundImage: `url('${about}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+      }}>
+  </section>
+  <section style={{
+           backgroundImage: `url('${Donate}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+      }}>
+
+  </section>
+  <section style={{
+           backgroundImage: `url('${hero}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+      }}>
+  </section>
+  <section style={{
+           backgroundImage: `url('${hero}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center'
+      }}>
+  </section>
+</div>  
     </>
   );
 }

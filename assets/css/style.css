@@ -24,7 +24,7 @@ h1{
 .main{
   flex: none;
   width: 100vw;
-  height: 100vh;
+  height: 96vh;
   scroll-snap-align: start;
 }
 .containers{
@@ -42,11 +42,36 @@ h1{
 	position:absolute;
 } 
 
-.slider-img{
-  height: 100px;
-  width: 100px;
-}
-.slider{
-  height: 100px !important;
+.slider {
+  font-family: sans-serif;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+
 }
 
+section {
+  padding: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+scroll-direction: horizontal;
+  position: relative;
+  
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  left: 0;
+  font-size: calc(1rem + 3vw);
+}
+.bg1{
+  background: #ccc;
+}
