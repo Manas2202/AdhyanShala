@@ -8,6 +8,7 @@ import about from './../assets/img/landing/about.svg';
 import Donate from './../assets/img/landing/donate.svg';
 function Start() {
   const child= { width :`300em`, height:`100%`}
+  
   return (
     <>
       {/* Page content 
