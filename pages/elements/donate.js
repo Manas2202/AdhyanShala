@@ -1,18 +1,19 @@
 import React from "react";
 import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Row,
-  Col,
+    Button,
+    Card,
+    CardHeader,
+    CardBody,
+    FormGroup,
+    Form,
+    Input,
+    InputGroupAddon,
+    InputGroupText,
+    InputGroup,
+    Row,
+    Col,
 } from "reactstrap";
+
 import './../../assets/css/rental.css';
 import border from './../../assets/img/theme/border.png';
 
@@ -54,7 +55,7 @@ function Home() {
         </div> 
     </section>
       <div className="d-flex align-item-center justify-content-center" >
-       <Col className="mt-5 ml-5"  lg ="6" md="8">
+       <Col className="mt-5 "  lg ="6" md="8">
         <Card className="bg-secondary shadow border-0" >
           <img className="imgs" src={border} style={{borderRadius:'20px',}}/>
           <CardBody className="px-lg-5 py-lg-5">
@@ -164,6 +165,4 @@ function Home() {
     </>
   );
 }
-
-
 export default Home;

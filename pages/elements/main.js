@@ -4,6 +4,8 @@ import wave1 from './../../assets/img/illustrations/div_-03.png'
 import wave2 from './../../assets/img/illustrations/div_-05.png'
 import wave3 from './../../assets/img/illustrations/div_-04.png'
 import wave4 from './../../assets/img/illustrations/div_header_footer-04.png'
+import Footer from "./../../components/Footers/footer"
+
 import astronaut from './../../assets/img/illustrations/Be_A_Part-03.svg'
 import astronaut1 from './../../assets/img/illustrations/laptop_ass-04.svg'
 export default function main() {
@@ -244,7 +246,7 @@ export default function main() {
 
       </div>
       <img src={wave4} width="100%" className="mb-5"/>
-
+      <Footer/>
 
         </div>
     )
