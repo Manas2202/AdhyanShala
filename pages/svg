@@ -1,0 +1,21 @@
+import React from 'react';
+import hero from './../../assets/img/landing/MainLanding.svg';
+
+function Homepage() {
+  return (
+    <>
+       {/* Page content */}
+       <div className="landing" style={{ backgroundImage: `url('${hero}')`,
+          backgroundSize: 'cover',
+          backgroundAttachment: 'fixed',
+         
+          backgroundPosition: 'center center'}}>
+
+       </div>
+       <BasicSvg />;}}
+    </>
+  );
+}
+
+
+export default Homepage;

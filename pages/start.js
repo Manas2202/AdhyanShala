@@ -13,7 +13,6 @@ function Start() {
     <>
       {/* Page content 
      <div className="start">  
-
         <div  className="main">
         <img className="main" src={hero} />
         </div>     
@@ -33,8 +32,7 @@ function Start() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
-     
-
+     <a href="elements/main" className="btn1">Get started</a>
   </section>
   <section style={{
            backgroundImage: `url('${about}')`,
@@ -43,6 +41,7 @@ function Start() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
+       <a href="elements/about" className="btn1">About us</a>
   </section>
   <section style={{
            backgroundImage: `url('${Donate}')`,
@@ -51,7 +50,7 @@ function Start() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
-
+       <a href="element/donate" className="btn1">Know More</a>
   </section>
   <section style={{
            backgroundImage: `url('${hero}')`,
@@ -60,6 +59,7 @@ function Start() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
+       <a href="elements/skills" className="btn1">Know More</a>
   </section>
   <section style={{
            backgroundImage: `url('${hero}')`,
@@ -68,6 +68,7 @@ function Start() {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center'
       }}>
+       <a href="elements/contact" className="btn1">Know More</a>
   </section>
 </div>  
     </>
