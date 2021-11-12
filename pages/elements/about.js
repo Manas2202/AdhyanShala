@@ -5,11 +5,14 @@ import astronaut1 from './../../assets/img/illustrations/laptop_ass-04.svg'
 import Footer from "./../../components/Footers/footer"
 import wave3 from './../../assets/img/illustrations/div_-04.png'
 import wave4 from './../../assets/img/illustrations/div_header_footer-04.png'
+// import aboutlanding from './../../assets/img/landing/aboutlanding.png'
+
 import { SiCloudbees } from "react-icons/si";
 
 export default function page() {
     return (
         <div>
+            {/* <img src={aboutlanding} width="100%" /> */}
             <div className="main-text section-title mt-5 mb-3 text-center" data-aos="fade-up" data-aos-delay="0.1s">
                 <h2 className="text-black">Overview</h2>
                 <p className="mt-4">

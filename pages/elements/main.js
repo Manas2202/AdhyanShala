@@ -3,6 +3,8 @@ import './../../assets/css/page.css';
 import wave1 from './../../assets/img/illustrations/div_-03.png'
 import wave2 from './../../assets/img/illustrations/div_-05.png'
 import wave3 from './../../assets/img/illustrations/div_-04.png'
+import mainlanding from './../../assets/img/landing/mainlanding.png'
+
 import wave4 from './../../assets/img/illustrations/div_header_footer-04.png'
 import Footer from "./../../components/Footers/footer"
 
@@ -11,6 +13,7 @@ import astronaut1 from './../../assets/img/illustrations/laptop_ass-04.svg'
 export default function main() {
     return (
         <div>
+            <img src={mainlanding} width="100%" />
             <div className="main-text section-title mt-5 mb-3 text-center" data-aos="fade-up" data-aos-delay="0.1s">
                 <h1 className="text-black">About Us</h1>
                 <p className="mt-4">

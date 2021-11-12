@@ -13,6 +13,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
+
 function Home() {
     
   return (
